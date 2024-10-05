@@ -15,5 +15,5 @@ variable "ec2_private_subnet_id" {
 
 variable "ec2_html" {
   type    = list(string)
-  default = ["Ahmed Mamdouh Mostafa 1111111111111111111111111111111111111111111", "Ahmed Mamdouh Mostafa  222222222222222222222222222222222222222222222222222222222"]
+  default = ["Omar Ali Al-Gammal Avail.Zone1", "Omar Ali Al-Gammal  Avail.Zone2"]
 }
