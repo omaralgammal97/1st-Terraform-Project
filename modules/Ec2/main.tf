@@ -79,7 +79,7 @@ resource "aws_instance" "pub-ec2" {
       type        = "ssh"
       host        = self.public_ip
       user        = "ec2-user"
-      private_key = file("/home/ahmed-mamdouh/terraaa/my-key-pair.pem")
+      private_key = file("/home/omar-algammal/terraaa/my-key-pair.pem")
       timeout     = "4m"
     }
   }
